@@ -8,37 +8,53 @@ import {
   CardTitle,
 } from "~/components/ui/card";
 
+const projects = [
+  {
+    image: "/images/2ndkibo.webp",
+    title: "WasteWizard",
+  },
+  {
+    image: "/images/2ndkibo.webp",
+    title: "Ring Notify",
+  },
+  {
+    image: "/images/2ndkibo.webp",
+    title: "TH-EN Machine Translation ",
+  },
+  {
+    image: "/images/2ndkibo.webp",
+    title: "TH-EN Machine Translation ",
+  },
+  {
+    image: "/images/2ndkibo.webp",
+    title: "TH-EN Machine Translation ",
+  },
+];
+
 export default function Projects() {
   return (
     <div>
-      <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl p-6">Projects</h1>
-      <div className="flex flex-row space-x-9 p-6">
-        <Card className="w-[380px]">
-          <CardImage src="/images/2ndkibo.webp" />
-          <CardHeader>
-            <CardTitle>Card Title</CardTitle>
-            <CardDescription>Card Description</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <p>Card Content</p>
-          </CardContent>
-          <CardFooter>
-            <p>Card Footer</p>
-          </CardFooter>
-        </Card>
-        <Card className="w-[380px]">
-          <CardImage src="/images/2ndkibo.webp" />
-          <CardHeader>
-            <CardTitle>Card Title</CardTitle>
-            <CardDescription>Card Description</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <p>Card Content</p>
-          </CardContent>
-          <CardFooter>
-            <p>Card Footer</p>
-          </CardFooter>
-        </Card>
+      <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl p-6">
+        Projects
+      </h1>
+      <div className="flex flex-row flex-wrap space-x-7 p-6">
+        {projects.map((project, index) => {
+          return (
+            <Card key={index} className="w-[380px] min-w-72">
+              <CardImage src="/images/2ndkibo.webp" />
+              <CardHeader>
+                <CardTitle>{project.title}</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+          );
+        })}
       </div>
     </div>
   );
