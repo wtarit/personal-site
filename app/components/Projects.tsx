@@ -34,13 +34,13 @@ const projects = [
 export default function Projects() {
   return (
     <div>
-      <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl p-6">
+      <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl py-6">
         Projects
       </h1>
-      <div className="flex flex-row flex-wrap space-x-7 p-6">
+      <div className="flex flex-row flex-wrap">
         {projects.map((project, index) => {
           return (
-            <Card key={index} className="w-[380px] min-w-72">
+            <Card key={index} className="w-[380px] min-w-60 mx-2">
               <CardImage src="/images/2ndkibo.webp" />
               <CardHeader>
                 <CardTitle>{project.title}</CardTitle>

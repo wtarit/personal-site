@@ -16,12 +16,14 @@ export default function Index() {
     <div>
       <Header />
       <Hero />
-      <WorkExperience />
-      <Projects />
+      <div className="p-6">
+        <WorkExperience />
+        <Projects />
+      </div>
     </div>
-    
+
     // <div className="flex h-screen items-center justify-center">
-      
+
     // </div>
   );
 }
