@@ -1,6 +1,44 @@
+import { SiGithub, SiLinkedin } from "@icons-pack/react-simple-icons";
 import { Button } from "./ui/button";
 
-
 export default function Hero() {
-  return <Button>Click</Button>
+  return (
+    <div className="flex flex-row p-6 h-screen">
+      <div className="basis-1/3 content-center">
+        <img
+          className="rounded-full max-w-96 max-h-96 object-contain"
+          src="/images/Tarit_image.jpeg"
+          alt="Tarit's portrait"
+        ></img>
+      </div>
+
+      <div className="flex flex-col justify-center p-6 basis-2/3">
+        <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl py-6">{`Hi, I'm Tarit`}</h1>
+        <h2>{`I'm a second-year Computer Science student at the University of British Columbia (UBC) with a passion for solving problems and building solutions to make life easier through programming. My journey began with Arduino robot programming, which sparked my interest in creating innovative systems. Over time, I expanded my skill set to include web development, mobile apps, and embedded systems.`}</h2>
+        <div className="py-6">
+          <a
+            href="/Tarit-Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button>Resume</Button>
+          </a>
+          <a href="https://github.com/wtarit" target="_blank" rel="noreferrer">
+            <Button variant="ghost">
+              <SiGithub />
+            </Button>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/wtarit"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button variant="ghost">
+              <SiLinkedin />
+            </Button>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 }
