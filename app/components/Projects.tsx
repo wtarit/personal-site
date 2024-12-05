@@ -1,4 +1,4 @@
-import { SiGithub, SiDevpost } from "@icons-pack/react-simple-icons";
+import { SiGithub, SiDevpost } from "react-icons/si";
 import {
   Card,
   CardContent,
