@@ -42,7 +42,7 @@ const projects = [
     image: "/images/RingNotify_Cover.png",
     title: "Ring Notify",
     description:
-      "Mobile application for notifying urgent event through call in screen",
+      "Mobile application for notifying urgent events through call in screen",
     footer: (
       <a
         href="https://github.com/wtarit/ring-notify"
@@ -59,7 +59,7 @@ const projects = [
     image: "/images/TH-EN-MT_Cover.png",
     title: "TH-EN Machine Translation ",
     description:
-      "Finetuning No Language Left Behind model for Thai to English machine translaion task using SCB-1M and OPUS dataset",
+      "Finetuning No Language Left Behind model for Thai to English machine translation using SCB-1M and OPUS dataset",
     footer: (
       <a
         href="https://github.com/wtarit/th-en-machine-translation"
@@ -110,13 +110,13 @@ const projects = [
     image: "/images/Nuclear_Robot_Cover.webp",
     title: "Logistics Robot",
     description:
-      "Logistics robot that travel on a simulated moon surface, detect radioactive substances and move them into storage box",
+      "Logistics robot that travels on a simulated moon surface, detects radioactive substances and moves them into storage boxes",
   },
   {
     image: "/images/Roboinnovator_Cover.webp",
     title: "RoboInnovator Challenge",
     description:
-      "Logistics robot that drive on the road lane and transport objects to the correct destination by reading the QR code",
+      "Logistics robot that drives on the road lane and transports objects to the correct destination by reading the QR code",
   },
 ];
 
