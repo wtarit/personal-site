@@ -3,10 +3,10 @@ import { Button } from "./ui/button";
 
 export default function Hero() {
   return (
-    <div className="flex flex-row p-6 h-screen">
+    <div className="flex flex-col md:flex-row md:space-x-6 p-6 h-screen">
       <div className="basis-1/3 content-center">
         <img
-          className="rounded-full max-w-96 max-h-96 object-contain"
+          className="rounded-full object-contain"
           src="/images/Tarit_image.jpeg"
           alt="Tarit's portrait"
         ></img>

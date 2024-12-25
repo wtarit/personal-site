@@ -15,8 +15,8 @@ export default function WorkExperience() {
       <Card>
         <CardHeader>
           <CardTitle>Software Developer Intern</CardTitle>
-          <CardDescription>
-            Applicad Public Company Limited - Bangkok, Thailand
+          <CardDescription className="flex justify-between flex-col md:flex-row">
+            <div>Applicad Public Company Limited - Bangkok, Thailand</div><div>June - August 2024</div>
           </CardDescription>
         </CardHeader>
         <CardContent>
