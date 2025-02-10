@@ -36,7 +36,7 @@ export default function TechnicalExtracurriculars() {
       </h1>
       {technicalExtracurriculars.map((extracurricular, index) => {
         return (
-          <Card>
+          <Card key={index}>
             <CardHeader>
               <CardTitle>{extracurricular.title}</CardTitle>
               <CardDescription className="flex justify-between flex-col md:flex-row">
