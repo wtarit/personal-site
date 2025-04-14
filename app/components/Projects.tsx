@@ -11,6 +11,34 @@ import { Button } from "./ui/button";
 
 const projects = [
   {
+    image: "/images/SAM_Cover.png",
+    title: "SAM - Sarcasm Authentication Model",
+    description:
+      "An app that helps individuals with Autism Spectrum Disorder (ASD) recognize sarcasm in conversations—making social interactions smoother and reducing misunderstandings",
+    footer: (
+      <>
+        {/* <a
+          href="https://github.com/LordofSabres/nwhacks2025"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button variant="ghost">
+            <SiGithub />
+          </Button>
+        </a> */}
+        <a
+          href="https://devpost.com/software/sam-sarcasm-authentication-model"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button variant="ghost">
+            <SiDevpost />
+          </Button>
+        </a>
+      </>
+    ),
+  },
+  {
     image: "/images/WasteWizard_Cover.png",
     title: "WasteWizard",
     description:
