@@ -13,14 +13,10 @@ export default function Hero() {
       </div>
 
       <div className="flex flex-col justify-center p-6 basis-2/3">
-        <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl py-6">{`Hi, I'm Tarit`}</h1>
+        <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl py-6">{`Hi, I'm Tarit Witworrasakul`}</h1>
         <h2>{`I'm a second-year Computer Science student at the University of British Columbia (UBC) with a passion for solving problems and building solutions to make life easier through programming. My journey began with Arduino robot programming, which sparked my interest in creating innovative systems. Over time, I expanded my skill set to include web development, mobile apps, and embedded systems.`}</h2>
         <div className="py-6">
-          <a
-            href="/Tarit-Resume.pdf"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="/Tarit-Resume.pdf" target="_blank" rel="noreferrer">
             <Button>Resume</Button>
           </a>
           <a href="https://github.com/wtarit" target="_blank" rel="noreferrer">
