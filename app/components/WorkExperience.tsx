@@ -30,8 +30,8 @@ const workExperiences: WorkExperience[] = [
 
 export default function WorkExperience() {
   return (
-    <div>
-      <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl py-6">
+    <div id="work-experience" className="scroll-mt-16">
+      <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl py-6 text-center">
         Work Experience
       </h1>
       {workExperiences.map((workExperience, index) => {

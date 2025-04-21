@@ -150,14 +150,14 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div>
-      <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl py-6">
+    <div id="projects" className="scroll-mt-16">
+      <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl py-6 text-center">
         Projects
       </h1>
-      <div className="flex flex-row flex-wrap">
+      <div className="flex flex-row flex-wrap justify-center">
         {projects.map((project, index) => {
           return (
-            <Card key={index} className="w-[430px] min-w-60 mx-2">
+            <Card key={index} className="w-[430px] min-w-60 mx-2 my-2">
               <CardImage
                 src={project.image}
                 className="aspect-[16/9] object-cover"

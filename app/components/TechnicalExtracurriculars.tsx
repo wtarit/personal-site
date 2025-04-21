@@ -30,8 +30,8 @@ const technicalExtracurriculars: Extracurricular[] = [
 
 export default function TechnicalExtracurriculars() {
   return (
-    <div>
-      <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl py-6">
+    <div id="technical-extracurriculars" className="scroll-mt-16">
+      <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl py-6 text-center">
         Technical Extracurriculars
       </h1>
       {technicalExtracurriculars.map((extracurricular, index) => {
@@ -41,7 +41,7 @@ export default function TechnicalExtracurriculars() {
               <CardTitle>{extracurricular.title}</CardTitle>
               <CardDescription className="flex justify-between flex-col md:flex-row">
                 <div>{extracurricular.organization}</div>
-                <div>{extracurricular.organization}</div>
+                <div>{extracurricular.duration}</div>
               </CardDescription>
             </CardHeader>
             <CardContent>
