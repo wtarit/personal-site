@@ -4,6 +4,7 @@ import Hero from "~/components/Hero";
 import Projects from "~/components/Projects";
 import TechnicalExtracurriculars from "~/components/TechnicalExtracurriculars";
 import WorkExperience from "~/components/WorkExperience";
+import Competitions from "~/components/Competitions";
 
 export const meta: MetaFunction = () => {
   return [
@@ -39,6 +40,7 @@ export default function Index() {
         <WorkExperience />
         <TechnicalExtracurriculars />
         <Projects />
+        <Competitions />
       </div>
     </div>
   );
