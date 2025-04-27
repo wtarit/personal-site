@@ -11,13 +11,15 @@ const competitions = [
     image: "/images/NSCC2024_Translink.jpg",
     title: "National Strategy Consulting Competition",
     date: "December 2024",
-    description: "Analyzed TransLink's financial challenges at NSCC 2024 and proposed a three-tiered strategy, including advertising optimization, event-specific transportation services, and a long-term integrated Super App",
+    description:
+      "Analyzed TransLink's financial challenges at NSCC 2024 and proposed a three-tiered strategy, including advertising optimization, event-specific transportation services, and a long-term integrated Super App",
   },
   {
     image: "/images/ADSE2022.jpg",
     title: "ASEAN Data Science Explorers",
     date: "August 2022",
-    description: "Developed a data analytics storyboard, proposing 'Caregiver Hub,' an app connecting the elderly with trusted caregivers, social groups, and activity recommendations to support aging societies",
+    description:
+      "Developed a data analytics storyboard, proposing 'Caregiver Hub,' an app connecting the elderly with trusted caregivers, social groups, and activity recommendations to support aging societies",
   },
 ];
 
@@ -37,7 +39,9 @@ export default function Competitions() {
               />
               <CardHeader>
                 <CardTitle>{competition.title}</CardTitle>
-                <p className="text-sm text-muted-foreground">{competition.date}</p>
+                <p className="text-sm text-muted-foreground">
+                  {competition.date}
+                </p>
               </CardHeader>
               <CardContent>
                 <p>{competition.description}</p>
@@ -48,4 +52,4 @@ export default function Competitions() {
       </div>
     </div>
   );
-} 
+}
