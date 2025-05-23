@@ -46,11 +46,13 @@ export default function Header() {
               <NavigationMenuList>
                 <div className="flex flex-row items-center justify-center space-x-12">
                   {menuItems.map((item) => (
-                    <Link key={item.href} to={item.href}>
-                      <NavigationMenuLink className="transition-all border-b-2 border-transparent hover:border-black font-medium text-lg py-2 px-1">
-                        {item.label}
-                      </NavigationMenuLink>
-                    </Link>
+                    <NavigationMenuLink
+                      key={item.href}
+                      className="transition-all border-b-2 border-transparent hover:border-black font-medium text-lg py-2 px-1"
+                      asChild
+                    >
+                      <Link to={item.href}>{item.label}</Link>
+                    </NavigationMenuLink>
                   ))}
                 </div>
               </NavigationMenuList>
