@@ -8,6 +8,7 @@ import {
 import type { LinksFunction } from "@remix-run/node";
 import styles from "./tailwind.css?url";
 import { Analytics } from "@vercel/analytics/remix";
+import { GoogleAnalytics } from "~/components/GoogleAnalytics";
 
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -37,6 +38,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         <Analytics />
+        <GoogleAnalytics />
         {children}
         <ScrollRestoration />
         <Scripts />
