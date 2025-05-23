@@ -27,7 +27,7 @@ export const useGoogleAnalytics = (
             // @ts-ignore
             window.gtag = gtag
             // @ts-ignore
-            window.gtag('js', new Date().toISOString())
+            window.gtag('js', new Date())
             // @ts-ignore
             window.gtag('config', gaMeasurementId, {
               debug_mode: false, // I keep this here to remember where to toggle debug
