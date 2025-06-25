@@ -7,7 +7,6 @@ import {
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
 import styles from "./tailwind.css?url";
-import { Analytics } from "@vercel/analytics/remix";
 import { GoogleAnalytics } from "~/components/GoogleAnalytics";
 
 export const links: LinksFunction = () => [
