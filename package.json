@@ -25,7 +25,8 @@
     "react-icons": "^5.4.0",
     "remix-themes": "^1.5.1",
     "tailwind-merge": "^2.5.5",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "wrangler": "^3.114.15"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.15.0",

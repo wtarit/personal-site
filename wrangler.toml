@@ -1,5 +1,0 @@
-name = "personal-site"
-compatibility_date = "2025-06-06"
-
-[observability]
-enabled = true
