@@ -52,13 +52,12 @@ export default {
       "Content-Type": "application/json",
       Authorization: env.LOGGING_API,
     };
-    const res = await fetch(
-      "https://otlp-gateway-prod-us-west-0.grafana.net/otlp/v1/logs",
-      {
+    ctx.waitUntil(
+      fetch("https://otlp-gateway-prod-us-west-0.grafana.net/otlp/v1/logs", {
         method: "POST",
         body: JSON.stringify(body),
         headers: header,
-      }
+      })
     );
     return env.ASSETS.fetch(request);
   },
