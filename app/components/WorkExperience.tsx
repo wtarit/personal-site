@@ -15,6 +15,19 @@ interface WorkExperience {
 
 const workExperiences: WorkExperience[] = [
   {
+    title: "Software Engineer Co-op",
+    company:
+      "Agoda Services (subsidiary of Booking Holdings Inc.) - Bangkok, Thailand",
+    duration: "May - August 2025",
+    descriptions: [
+      "Improved Cashback processing logic by querying additional data from the booking team’s GraphQL API and adding validation logic, automating cases that once needed manual review",
+      "Resolved 3 production bugs by updating C# API query logic and adding retry logic with fallback flags to conform with booking team’s API spec for older bookings, improving Cashback page user experience",
+      "Restored and stabilized previously flaky Cashback integration tests by integrating MockAPI endpoints",
+      "Addressed security vulnerabilities by upgrading dependencies, including Jest and internal Playwright E2E test wrappers, and fixing CI pipelines to ensure tests run on every pull request",
+      "Developed a load testing suite using Grafana k6 with randomized input data, simulating up to 500 req/sec to proactively validate system performance before new feature rollouts",
+    ],
+  },
+  {
     title: "Software Developer Intern",
     company: "Applicad Public Company Limited - Bangkok, Thailand",
     duration: "June - August 2024",

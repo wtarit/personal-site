@@ -1,12 +1,12 @@
-import type { MetaFunction } from "@remix-run/node";
 import Header from "~/components/Header";
+import type { Route } from "./+types/home";
 import Hero from "~/components/Hero";
-import Projects from "~/components/Projects";
-import TechnicalExtracurriculars from "~/components/TechnicalExtracurriculars";
 import WorkExperience from "~/components/WorkExperience";
+import TechnicalExtracurriculars from "~/components/TechnicalExtracurriculars";
+import Projects from "~/components/Projects";
 import Competitions from "~/components/Competitions";
 
-export const meta: MetaFunction = () => {
+export function meta({}: Route.MetaArgs) {
   return [
     { title: "Tarit's Portfolio" },
     {
@@ -29,9 +29,9 @@ export const meta: MetaFunction = () => {
       },
     },
   ];
-};
+}
 
-export default function Index() {
+export default function Home() {
   return (
     <div>
       <Header />
