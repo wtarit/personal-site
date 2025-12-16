@@ -20,6 +20,9 @@
   "build": {
     // "watch_dir": "./src",
     "command": "pnpm run build"
+  },
+  "env": {
+    "dev": {}
   }
   /**
    * Smart Placement
