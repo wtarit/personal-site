@@ -22,7 +22,7 @@
     "command": "pnpm run build"
   },
   "env": {
-    "dev": {}
+    "dev": { "name": "personal-site-dev" }
   }
   /**
    * Smart Placement
