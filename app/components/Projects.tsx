@@ -157,7 +157,7 @@ export default function Projects() {
       <div className="flex flex-row flex-wrap justify-center">
         {projects.map((project, index) => {
           return (
-            <Card key={index} className="w-[430px] min-w-60 mx-2 my-2">
+            <Card key={index} className="w-[430px] min-w-60 mx-2">
               <CardImage
                 src={project.image}
                 className="aspect-[16/9] object-cover"

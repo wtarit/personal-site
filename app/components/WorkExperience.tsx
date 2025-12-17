@@ -15,6 +15,16 @@ interface WorkExperience {
 
 const workExperiences: WorkExperience[] = [
   {
+    title: "CPSC 310 Undergraduate Teaching Assistant",
+    company: "University of British Columbia - Vancouver, BC",
+    duration: "September - December 2025",
+    descriptions: [
+      "Worked as part of a teaching team supporting 461 students in the Introduction to Software Engineering course",
+      "Facilitated labs and office hours to review group project progress and help students debug TypeScript projects",
+      "Graded written assignments and addressed spec-related and technical questions on Piazza",
+    ],
+  },
+  {
     title: "Software Engineer Co-op",
     company:
       "Agoda Services (subsidiary of Booking Holdings Inc.) - Bangkok, Thailand",
@@ -32,10 +42,10 @@ const workExperiences: WorkExperience[] = [
     company: "Applicad Public Company Limited - Bangkok, Thailand",
     duration: "June - August 2024",
     descriptions: [
-      "Conducted an analysis of the sales team's needs for a customer identification solution, defining essential functionalities and designing user flows in collaboration with a UX/UI designer to develop a Figma prototype",
+      "Analyzed the sales team's needs for a customer identification solution, defining essential functionalities and designing user flows in collaboration with a UX/UI designer to develop a Figma prototype",
       "Developed a real-time facial recognition web application using Next.js, featuring a user interface for customer identification with 95% accuracy via webcam, along with an admin page for managing customer data",
-      "Built a backend service in Python with FastAPI for face vector comparison using ChromaDB, integrated with a PostgreSQL database for storing User Data, and linked it to the existing internal customer database",
-      "Implemented a robust authentication system featuring role-based access control with NextAuth, utilizing JWT sessions and email OTP for secure login, and employed Next.js middleware for token verification",
+      "Built a backend service in Python with FastAPI for face vector comparison using ChromaDB, integrated with a PostgreSQL database for storing user data, and linked it to the existing internal customer database",
+      "Implemented role-based access control using NextAuth with JWT sessions and email OTP login, with token verification handled via Next.js middleware",
       "Deployed the application and databases to an on-premises Ubuntu server using Docker and Docker Compose",
     ],
   },

@@ -19,11 +19,11 @@ const technicalExtracurriculars: Extracurricular[] = [
     organization: "UBC Uncrewed Aircraft Systems Engineering Design Team",
     duration: "September 2023 - Present",
     descriptions: [
-      "Contributed to the development of autonomous drones competing in the the Aerial Evolution Association of Canada 2024 competition, achieving 2nd place in the proposals phase and 3rd place in the demonstration phase",
-      "Successfully migrated 15+ endpoints in MissionPlanner-Scripts, a REST APIs and WebSocket interface between a backend system and ArduPilot, to a cross-platform architecture using Pymavlink and Flask, eliminating reliance on Windows-only MissionPlanner client scripts",
-      "Crafted OpenAPI Specifications and Postman collections to facilitate team collaboration and API integration",
-      "Developed a pipeline for drone target detection using a fine-tuned YOLOv8 model with tiled inference",
-      "Created dataset generator program using OpenCV and imgaug, eliminating the need for manual data labeling",
+      "Contributed as part of a 60+ member engineering team to develop autonomous drones, achieving 2nd place at the Aerial Evolution Association of Canada 2025 competition",
+      "Migrated 15+ endpoints in MissionPlanner-Scripts, an API that connects backend system and ArduPilot, to a cross-platform architecture using Pymavlink, eliminating reliance on Windows-only MissionPlanner client scripts",
+      "Created OpenAPI Specifications and Postman collections to facilitate team collaboration and API integration",
+      "Built a target-detection pipeline using a fine-tuned YOLOv8 model with tiled inference",
+      "Developed a dataset generation tool with OpenCV and imgaug, reducing manual data labeling requirements",
     ],
   },
 ];
