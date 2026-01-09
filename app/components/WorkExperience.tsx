@@ -17,7 +17,7 @@ const workExperiences: WorkExperience[] = [
   {
     title: "CPSC 310 Undergraduate Teaching Assistant",
     company: "University of British Columbia - Vancouver, BC",
-    duration: "September - December 2025",
+    duration: "September - April 2026",
     descriptions: [
       "Worked as part of a teaching team supporting 461 students in the Introduction to Software Engineering course",
       "Facilitated labs and office hours to review group project progress and help students debug TypeScript projects",
